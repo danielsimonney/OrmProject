@@ -1,0 +1,16 @@
+{
+    "name": "daniel/susano",
+    "authors": [
+        {
+            "name": "danielsimonney",
+            "email": "daniel.simonney60@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "Susano" : "Susano/",
+            "" : "exemple/"
+        }
+      }
+}
