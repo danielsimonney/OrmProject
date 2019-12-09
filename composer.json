@@ -8,8 +8,8 @@
     ],
     "require": {},
     "autoload": {
-        "psr-0": {
-            "Susano" : "Susano/",
+        "psr-4": {
+            "Susano\\" : "src/",
             "" : "exemple/"
         }
       }

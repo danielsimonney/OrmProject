@@ -16,7 +16,6 @@ class Database
         $this->hostname=$conn["dbname"];
         $this->user=$conn["user"];
         $this->password=$conn["password"];
-
     }
     protected function db()
     {

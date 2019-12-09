@@ -1,5 +1,6 @@
 <?php
-require_once("bootstrap.php");
-$filmRepository = $entityManager->getRepository("Film");
-$film = $filmRepository->findOneBy(["id" => $argv[1]]);
+require_once("init.php");
+$film = new Model\Film();
+$film=$em->findAll($film);
+var_dump($film);
 
