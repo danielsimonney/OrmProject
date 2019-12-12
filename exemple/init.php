@@ -2,6 +2,7 @@
 
 use Susano\Database;
 use Susano\EntityManager;
+use Susano\Executer;
 
 require_once("../vendor/autoload.php");
 
@@ -13,7 +14,6 @@ $config=[
     "password"=>"root"
 ];
 
-
-$db=new Database($config);
-$em = new EntityManager($db->connexion());
+$db=new Executer('mysql:host=' . $config["host"] . ';dbname=' . $config["dbname"] . ';charset=utf8;', $config["user"], $config["password"]);
+$em = new EntityManager($db);
 

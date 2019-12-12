@@ -1,10 +1,13 @@
 <?php
+
+use Repository\FilmRepository;
+
 require_once("init.php");
 $film = new Model\Film();
-$films=$em->findAll($film);
+$filmRepo=new FilmRepository;
+$films=$filmRepo->findAll();
 
 foreach($films as $flim){
- echo $flim->title;
+  var_dump($flim->releasedate);
 }
-
 
