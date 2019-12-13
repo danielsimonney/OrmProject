@@ -1,9 +1,14 @@
 <?php
+
+use Repository\FilmRepository;
 require_once("init.php");
-$film = new Model\Film();
-$film=$em->find($film,1);
-$film=$em->findBy($film,["title"=>"django"],[""]);
-$film=$em->find($film);
-$count=$em->count(findAll($film));
+$filmRepo=new FilmRepository();
+// $film=$filmRepo->find(4);
+$film=$filmRepo->findBy(["synopsis"=>"`fezefvzevezv"],["releaseDate"=>"ASC"]);
+// $count=$filmRepo->count();
 var_dump($film);
+foreach ($film as $key => $value) {
+    var_dump($value->releasedate);
+
+}
 
