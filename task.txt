@@ -1,0 +1,10 @@
+findall avec orderBy
+find one : juste avec un id
+findoneBy : un id et un param
+findallby : rechercher tous avec un parametre et un orderBy
+
+count
+
+Les logs
+
+Repository pour les requetes de recherche 

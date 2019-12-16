@@ -1,0 +1,314 @@
+[12/12/19 16:14:16] : INSERT INTO film (title ,duree ,category ,studio ,synopsis ,releasedate) VALUES(?,?,?,?,?,?) 
+[12/12/19 16:14:48] : INSERT INTO film (title ,duree ,category ,studio ,synopsis ,releasedate) VALUES(?,?,?,?,?,?) 
+[12/12/19 17:49:30] : SELECT * from film 
+[12/12/19 17:51:52] : SELECT * from film 
+[12/12/19 17:52:18] : SELECT * from film 
+[12/12/19 17:52:18] : INSERT INTO film (title ,duree ,category ,studio ,synopsis ,releasedate) VALUES(?,?,?,?,?,?) 
+[12/12/19 22:41:59] : SELECT * FROM film ORDER BY releaseDate ASC  
+[12/12/19 23:04:02] : SELECT * FROM film 
+[12/12/19 23:04:02] : SELECT * FROM film ORDER BY releaseDate ASC  
+[12/12/19 23:06:10] : SELECT * FROM film 
+[12/12/19 23:06:10] : SELECT * FROM film ORDER BY releaseDate ASC  
+[12/12/19 23:14:26] : SELECT * FROM film WHERE id='1'  
+[12/12/19 23:16:28] : SELECT * FROM film 
+[12/12/19 23:16:28] : SELECT * FROM film ORDER BY releaseDate ASC  
+[12/12/19 23:17:07] : SELECT * FROM film WHERE id='1'  
+[12/12/19 23:17:41] : SELECT * FROM film 
+[12/12/19 23:17:41] : SELECT * FROM film ORDER BY releaseDate ASC  
+[12/12/19 23:18:17] : SELECT * FROM film 
+[12/12/19 23:18:17] : SELECT * FROM film ORDER BY releaseDate ASC  
+[12/12/19 23:18:43] : SELECT * FROM film WHERE id='1'  
+[12/12/19 23:21:39] : SELECT * FROM film WHERE id='1'  
+[12/12/19 23:21:50] : SELECT * FROM film 
+[12/12/19 23:21:50] : SELECT * FROM film ORDER BY releaseDate ASC  
+[12/12/19 23:22:43] : SELECT * FROM film 
+[12/12/19 23:22:43] : SELECT * FROM film ORDER BY releaseDate ASC  
+[12/12/19 23:23:32] : SELECT * FROM film 
+[12/12/19 23:23:32] : SELECT * FROM film ORDER BY releaseDate ASC  
+[12/12/19 23:23:41] : SELECT * FROM film WHERE id='1'  
+[12/12/19 23:24:09] : SELECT * FROM film WHERE id='1'  
+[12/12/19 23:25:48] : SELECT * FROM film WHERE id='4'  
+[12/12/19 23:26:26] : SELECT * FROM film WHERE id='4'  
+[12/12/19 23:26:36] : SELECT * FROM film WHERE id='4'  
+[12/12/19 23:26:49] : SELECT * FROM film WHERE id='4'  
+[12/12/19 23:28:22] : SELECT * FROM film WHERE id='4'  
+[12/12/19 23:29:59] : SELECT * FROM film WHERE id='4'  
+[13/12/19 09:23:58] : SELECT * FROM film WHERE title='django' ORDER BY releaseDate ASC 
+[13/12/19 09:24:33] : SELECT * FROM film WHERE title='django' ORDER BY releaseDate ASC 
+[13/12/19 09:25:15] : SELECT * FROM film WHERE title='django' ORDER BY releaseDate ASC 
+[13/12/19 09:25:25] : SELECT * FROM film WHERE title='django' ORDER BY releaseDate ASC 
+[13/12/19 09:57:39] : SELECT * FROM film WHERE synopsis='`fezefvzevezv' ORDER BY releaseDate ASC 
+[13/12/19 10:07:14] : SELECT * FROM film WHERE synopsis='`fezefvzezdvezv' ORDER BY releaseDate ASC 
+[13/12/19 10:18:13] : SELECT * FROM film WHERE synopsis='`fezefvzezdvezv' ORDER BY releaseDate ASCtook exactly0.00045204162597656 seconds to execute . 
+[13/12/19 10:18:27] : SELECT * FROM film WHERE synopsis='`fezefvzevezv' ORDER BY releaseDate ASCtook exactly0.00038695335388184 seconds to execute . 
+[13/12/19 10:19:01] : SELECT * FROM film WHERE synopsis='`fezefvzevezv' ORDER BY releaseDate ASC took exactly0.00030612945556641 seconds to execute . 
+[13/12/19 10:19:19] : SELECT * FROM film WHERE synopsis='`fezefvzevezv' ORDER BY releaseDate ASC took exactly 0.00044107437133789 seconds to execute . 
+[13/12/19 14:45:48] : SELECT * FROM film WHERE id='4'  took exactly 0.00079989433288574 seconds to execute . 
+[13/12/19 14:45:55] : SELECT * FROM film WHERE id='1'  took exactly 0.00092291831970215 seconds to execute . 
+[13/12/19 14:47:01] : SELECT * FROM film WHERE id='1'  took exactly 0.00085306167602539 seconds to execute . 
+[13/12/19 14:47:22] : SELECT * FROM film WHERE id='1'  took exactly 0.00030303001403809 seconds to execute . 
+[13/12/19 14:47:50] : SELECT * FROM film WHERE id='1'  took exactly 0.0014209747314453 seconds to execute . 
+[13/12/19 14:49:19] : SELECT * FROM film WHERE id='1'  took exactly 0.00036191940307617 seconds to execute . 
+[13/12/19 14:49:33] : SELECT * FROM film WHERE id='4'  took exactly 0.00031614303588867 seconds to execute . 
+[13/12/19 14:50:23] : SELECT * FROM film WHERE id='4'  took exactly 0.00031280517578125 seconds to execute . 
+[13/12/19 14:51:23] : SELECT * FROM film WHERE id='4'  took exactly 0.00032305717468262 seconds to execute . 
+[13/12/19 14:51:37] : SELECT * FROM film WHERE id='4'  took exactly 0.00033211708068848 seconds to execute . 
+[13/12/19 14:52:02] : SELECT * FROM film WHERE id='4'  took exactly 0.0015180110931396 seconds to execute . 
+[13/12/19 14:52:08] : SELECT * FROM film WHERE id='4'  took exactly 0.00029492378234863 seconds to execute . 
+[13/12/19 14:52:30] : SELECT * FROM film WHERE id='4'  took exactly 0.00031495094299316 seconds to execute . 
+[13/12/19 14:52:49] : SELECT * FROM film WHERE id='4'  took exactly 0.00030994415283203 seconds to execute . 
+[13/12/19 14:54:02] : SELECT * FROM film WHERE id='4'  took exactly 0.00039100646972656 seconds to execute . 
+[13/12/19 14:55:10] : SELECT * FROM film WHERE id='4'  took exactly 0.00035381317138672 seconds to execute . 
+[13/12/19 14:56:21] : SELECT * FROM film WHERE id='1'  took exactly 0.0018408298492432 seconds to execute . 
+[13/12/19 14:56:51] : SELECT * FROM film WHERE synopsis='`fezefvzevezv' ORDER BY releaseDate ASC took exactly 0.00035905838012695 seconds to execute . 
+[13/12/19 14:57:04] : SELECT * FROM film WHERE id='4'  took exactly 0.0003209114074707 seconds to execute . 
+[13/12/19 15:02:29] : SELECT * FROM film WHERE id='4'  took exactly 0.0009300708770752 seconds to execute . 
+[13/12/19 15:02:41] : SELECT * FROM film WHERE id='4'  took exactly 0.00052499771118164 seconds to execute . 
+[13/12/19 15:03:49] : SELECT * FROM film WHERE id='4'  took exactly 0.0015919208526611 seconds to execute . 
+[13/12/19 15:04:09] : SELECT * FROM film WHERE id='4'  took exactly 0.00032615661621094 seconds to execute . 
+[13/12/19 15:05:19] : SELECT * FROM film WHERE id='4'  took exactly 0.0013668537139893 seconds to execute . 
+[13/12/19 15:05:30] : SELECT * FROM film WHERE id='4'  took exactly 0.00046706199645996 seconds to execute . 
+[13/12/19 15:06:35] : SELECT * FROM film WHERE id='4'  took exactly 0.00086402893066406 seconds to execute . 
+[13/12/19 15:06:52] : SELECT * FROM film WHERE id='4'  took exactly 0.00030112266540527 seconds to execute . 
+[13/12/19 15:07:07] : SELECT * FROM film WHERE id='4'  took exactly 0.0013101100921631 seconds to execute . 
+[13/12/19 15:08:52] : SELECT * FROM film WHERE id='4'  took exactly 0.00032210350036621 seconds to execute . 
+[13/12/19 15:10:00] : SELECT * FROM film WHERE id='4'  took exactly 0.0014619827270508 seconds to execute . 
+[13/12/19 15:10:09] : SELECT * FROM film WHERE id='4'  took exactly 0.00031805038452148 seconds to execute . 
+[13/12/19 15:11:19] : SELECT * FROM film WHERE id='4'  took exactly 0.0014810562133789 seconds to execute . 
+[13/12/19 15:11:46] : SELECT * FROM film WHERE id='4'  took exactly 0.0003058910369873 seconds to execute . 
+[13/12/19 15:13:16] : SELECT * FROM film WHERE id='4'  took exactly 0.00029993057250977 seconds to execute . 
+[13/12/19 15:13:57] : SELECT * FROM film WHERE id='4'  took exactly 0.00088405609130859 seconds to execute . 
+[13/12/19 15:14:16] : SELECT * FROM film WHERE id='4'  took exactly 0.00098085403442383 seconds to execute . 
+[13/12/19 15:14:18] : SELECT * FROM film WHERE id='4'  took exactly 0.00032401084899902 seconds to execute . 
+[13/12/19 15:15:03] : SELECT * FROM film WHERE id='4'  took exactly 0.0012149810791016 seconds to execute . 
+[13/12/19 15:16:23] : SELECT * FROM film WHERE id='4'  took exactly 0.0012519359588623 seconds to execute . 
+[13/12/19 15:16:31] : SELECT * FROM film WHERE id='1'  took exactly 0.00029993057250977 seconds to execute . 
+[13/12/19 15:16:49] : SELECT * FROM film WHERE id='1'  took exactly 0.00031518936157227 seconds to execute . 
+[13/12/19 15:17:04] : SELECT * FROM film WHERE id='1'  took exactly 0.00030803680419922 seconds to execute . 
+[13/12/19 15:17:33] : SELECT * FROM film WHERE id='1'  took exactly 0.0012669563293457 seconds to execute . 
+[13/12/19 15:21:57] : SELECT * FROM film WHERE id='1'  took exactly 0.00039100646972656 seconds to execute . 
+[13/12/19 15:22:08] : SELECT * FROM film WHERE id='4'  took exactly 0.0003058910369873 seconds to execute . 
+[13/12/19 15:22:47] : SELECT * FROM film WHERE id='4'  took exactly 0.0003209114074707 seconds to execute . 
+[13/12/19 15:22:56] : SELECT * FROM film WHERE id='4'  took exactly 0.0002901554107666 seconds to execute . 
+[13/12/19 15:24:24] : SELECT * FROM film WHERE id='4'  took exactly 0.00034594535827637 seconds to execute . 
+[13/12/19 15:24:55] : SELECT * FROM film WHERE id='4'  took exactly 0.001305103302002 seconds to execute . 
+[13/12/19 15:25:34] : SELECT * FROM film WHERE id='4'  took exactly 0.00028514862060547 seconds to execute . 
+[13/12/19 15:25:58] : SELECT * FROM film WHERE id='4'  took exactly 0.0009000301361084 seconds to execute . 
+[13/12/19 15:26:27] : SELECT * FROM film WHERE id='4'  took exactly 0.00034189224243164 seconds to execute . 
+[13/12/19 15:28:41] : SELECT * FROM film WHERE id='4'  took exactly 0.0012941360473633 seconds to execute . 
+[13/12/19 15:28:48] : SELECT * FROM film WHERE id='1'  took exactly 0.00037193298339844 seconds to execute . 
+[13/12/19 15:29:26] : SELECT * FROM film WHERE id='1'  took exactly 0.00088810920715332 seconds to execute . 
+[15/12/19 00:26:41] : SELECT * FROM film WHERE id='4'  took exactly 0.016582012176514 seconds to execute . 
+[15/12/19 00:27:00] : SELECT * FROM film WHERE id='4'  took exactly 0.00035381317138672 seconds to execute . 
+[15/12/19 00:27:10] : SELECT * FROM film WHERE id='4'  took exactly 0.00042390823364258 seconds to execute . 
+[15/12/19 00:27:52] : SELECT * FROM film WHERE id='4'  took exactly 0.0013430118560791 seconds to execute . 
+[15/12/19 00:28:13] : SELECT * FROM film WHERE id='4'  took exactly 0.00041484832763672 seconds to execute . 
+[15/12/19 00:35:18] : SELECT * FROM film WHERE id='4'  took exactly 0.00035595893859863 seconds to execute . 
+[15/12/19 00:37:09] : SELECT * FROM film WHERE id='4'  took exactly 0.00035500526428223 seconds to execute . 
+[15/12/19 00:37:24] : SELECT * FROM film WHERE id='4'  took exactly 0.00031709671020508 seconds to execute . 
+[15/12/19 00:37:56] : SELECT * FROM film WHERE id='4'  took exactly 0.00040793418884277 seconds to execute . 
+[15/12/19 00:38:23] : SELECT * FROM film WHERE id='4'  took exactly 0.00033402442932129 seconds to execute . 
+[15/12/19 00:39:18] : SELECT * FROM film WHERE id='4'  took exactly 0.00034093856811523 seconds to execute . 
+[15/12/19 00:39:28] : SELECT * FROM film WHERE id='4'  took exactly 0.00029087066650391 seconds to execute . 
+[15/12/19 00:40:17] : SELECT * FROM film WHERE id='4'  took exactly 0.00031185150146484 seconds to execute . 
+[15/12/19 00:41:25] : SELECT * FROM film WHERE id='4'  took exactly 0.00057506561279297 seconds to execute . 
+[15/12/19 00:47:03] : SELECT * FROM film WHERE id='4'  took exactly 0.00042104721069336 seconds to execute . 
+[15/12/19 00:48:47] : SELECT * FROM film WHERE id='4'  took exactly 0.00058889389038086 seconds to execute . 
+[15/12/19 00:50:02] : SELECT * FROM film WHERE id='4'  took exactly 0.00032901763916016 seconds to execute . 
+[15/12/19 07:50:09] : SELECT * FROM film WHERE id='4'  took exactly 0.00040817260742188 seconds to execute . 
+[15/12/19 07:50:24] : SELECT * FROM film WHERE id='4'  took exactly 0.00035214424133301 seconds to execute . 
+[15/12/19 07:52:54] : SELECT * FROM film WHERE id='4'  took exactly 0.0003211498260498 seconds to execute . 
+[15/12/19 07:53:31] : SELECT * FROM film WHERE id='4'  took exactly 0.00030803680419922 seconds to execute . 
+[15/12/19 07:53:31] : SELECT * FROM film WHERE id='4'  took exactly 0.00017905235290527 seconds to execute . 
+[15/12/19 07:54:15] : SELECT * FROM film WHERE id='4'  took exactly 0.0016040802001953 seconds to execute . 
+[15/12/19 07:57:21] : SELECT * FROM film WHERE id=''  took exactly 0.00030088424682617 seconds to execute . 
+[15/12/19 07:59:05] : SELECT * FROM film WHERE id='4'  took exactly 0.00036096572875977 seconds to execute . 
+[15/12/19 07:59:05] : SELECT * FROM film WHERE id='4'  took exactly 0.00020408630371094 seconds to execute . 
+[15/12/19 08:01:16] : SELECT * FROM film WHERE id='4'  took exactly 0.00041604042053223 seconds to execute . 
+[15/12/19 08:01:16] : SELECT * FROM film WHERE id='4'  took exactly 0.00020694732666016 seconds to execute . 
+[15/12/19 08:06:56] : SELECT * FROM film WHERE id='4'  took exactly 0.00037789344787598 seconds to execute . 
+[15/12/19 08:07:45] : SELECT * FROM film WHERE id='4'  took exactly 0.00035285949707031 seconds to execute . 
+[15/12/19 08:08:02] : SELECT * FROM film WHERE id='4'  took exactly 0.00077199935913086 seconds to execute . 
+[15/12/19 08:11:18] : SELECT * FROM film WHERE id='4'  took exactly 0.0003049373626709 seconds to execute . 
+[15/12/19 08:12:11] : SELECT * FROM film WHERE id='4'  took exactly 0.0003201961517334 seconds to execute . 
+[15/12/19 08:12:45] : SELECT * FROM film WHERE id='4'  took exactly 0.00027084350585938 seconds to execute . 
+[15/12/19 08:15:03] : SELECT * FROM film WHERE id='4'  took exactly 0.00034379959106445 seconds to execute . 
+[15/12/19 08:15:38] : SELECT * FROM film WHERE id='4'  took exactly 0.00032377243041992 seconds to execute . 
+[15/12/19 14:21:35] : SELECT * FROM film WHERE id='4'  took exactly 0.00031304359436035 seconds to execute . 
+[15/12/19 14:22:46] : SELECT * FROM film WHERE id='4'  took exactly 0.00034999847412109 seconds to execute . 
+[15/12/19 14:23:06] : SELECT * FROM film WHERE id='4'  took exactly 0.00030708312988281 seconds to execute . 
+[15/12/19 14:24:43] : SELECT * FROM film WHERE id='4'  took exactly 0.00031089782714844 seconds to execute . 
+[15/12/19 14:24:43] : SELECT * FROM film WHERE id='4'  took exactly 0.00017309188842773 seconds to execute . 
+[15/12/19 14:25:57] : SELECT * FROM film WHERE id='4'  took exactly 0.00031685829162598 seconds to execute . 
+[15/12/19 14:25:57] : SELECT * FROM film WHERE id='4'  took exactly 0.00014281272888184 seconds to execute . 
+[15/12/19 14:27:59] : SELECT * FROM film WHERE id='4'  took exactly 0.00028896331787109 seconds to execute . 
+[15/12/19 14:27:59] : SELECT * FROM film WHERE id='4'  took exactly 0.00015497207641602 seconds to execute . 
+[15/12/19 14:28:25] : SELECT * FROM film WHERE id='4'  took exactly 0.00032782554626465 seconds to execute . 
+[15/12/19 14:28:25] : SELECT * FROM film WHERE id='4'  took exactly 0.00018811225891113 seconds to execute . 
+[15/12/19 14:28:36] : SELECT * FROM film WHERE id='4'  took exactly 0.00034904479980469 seconds to execute . 
+[15/12/19 14:28:36] : SELECT * FROM film WHERE id='4'  took exactly 0.00022315979003906 seconds to execute . 
+[15/12/19 14:28:52] : SELECT * FROM film WHERE id='4'  took exactly 0.00031495094299316 seconds to execute . 
+[15/12/19 14:28:52] : SELECT * FROM film WHERE id='4'  took exactly 0.0001678466796875 seconds to execute . 
+[15/12/19 14:29:02] : SELECT * FROM film WHERE id='4'  took exactly 0.00036001205444336 seconds to execute . 
+[15/12/19 14:29:02] : SELECT * FROM film WHERE id='4'  took exactly 0.00018596649169922 seconds to execute . 
+[15/12/19 14:29:16] : SELECT * FROM film WHERE id='4'  took exactly 0.00040006637573242 seconds to execute . 
+[15/12/19 14:29:16] : SELECT * FROM film WHERE id='4'  took exactly 0.00020098686218262 seconds to execute . 
+[15/12/19 14:29:30] : SELECT * FROM film WHERE id='4'  took exactly 0.00030398368835449 seconds to execute . 
+[15/12/19 14:29:30] : SELECT * FROM film WHERE id='4'  took exactly 0.00019192695617676 seconds to execute . 
+[15/12/19 14:30:34] : SELECT * FROM film WHERE id='4'  took exactly 0.00033402442932129 seconds to execute . 
+[15/12/19 14:30:34] : SELECT * FROM film WHERE id='4'  took exactly 0.0008540153503418 seconds to execute . 
+[15/12/19 14:31:18] : SELECT * FROM film WHERE id='4'  took exactly 0.00032281875610352 seconds to execute . 
+[15/12/19 14:31:18] : SELECT * FROM film WHERE id='4'  took exactly 0.00018215179443359 seconds to execute . 
+[15/12/19 14:31:31] : SELECT * FROM film WHERE id='4'  took exactly 0.00036406517028809 seconds to execute . 
+[15/12/19 14:31:31] : SELECT * FROM film WHERE id='4'  took exactly 0.00021696090698242 seconds to execute . 
+[15/12/19 14:31:43] : SELECT * FROM film WHERE id='4'  took exactly 0.00030398368835449 seconds to execute . 
+[15/12/19 14:31:43] : SELECT * FROM film WHERE id='4'  took exactly 0.00018000602722168 seconds to execute . 
+[15/12/19 14:32:35] : SELECT * FROM film WHERE id='4'  took exactly 0.0009911060333252 seconds to execute . 
+[15/12/19 14:32:35] : SELECT * FROM film WHERE id='4'  took exactly 0.00016999244689941 seconds to execute . 
+[15/12/19 14:33:26] : SELECT * FROM film WHERE id='4'  took exactly 0.00033903121948242 seconds to execute . 
+[15/12/19 14:33:26] : SELECT * FROM film WHERE id='4'  took exactly 0.00018405914306641 seconds to execute . 
+[15/12/19 14:33:52] : SELECT * FROM film WHERE id='4'  took exactly 0.0014538764953613 seconds to execute . 
+[15/12/19 14:33:52] : SELECT * FROM film WHERE id='4'  took exactly 0.00023484230041504 seconds to execute . 
+[15/12/19 14:34:43] : SELECT * FROM film WHERE id='4'  took exactly 0.00036406517028809 seconds to execute . 
+[15/12/19 14:34:43] : SELECT * FROM film WHERE id='4'  took exactly 0.00023794174194336 seconds to execute . 
+[15/12/19 14:35:34] : SELECT * FROM film WHERE id='4'  took exactly 0.0012860298156738 seconds to execute . 
+[15/12/19 14:35:34] : SELECT * FROM film WHERE id='4'  took exactly 0.00044393539428711 seconds to execute . 
+[15/12/19 14:36:55] : SELECT * FROM film WHERE id='4'  took exactly 0.00075602531433105 seconds to execute . 
+[15/12/19 14:36:55] : SELECT * FROM film WHERE id='4'  took exactly 0.00034189224243164 seconds to execute . 
+[15/12/19 14:46:52] : SELECT * FROM film WHERE id='4'  took exactly 0.00031113624572754 seconds to execute . 
+[15/12/19 14:49:26] : SELECT * FROM film WHERE id='4'  took exactly 0.00030708312988281 seconds to execute . 
+[15/12/19 14:50:26] : SELECT * FROM film WHERE id='4'  took exactly 0.00030708312988281 seconds to execute . 
+[15/12/19 14:50:32] : SELECT * FROM film WHERE id='4'  took exactly 0.00029802322387695 seconds to execute . 
+[15/12/19 14:50:55] : SELECT * FROM film WHERE id='4'  took exactly 0.00032591819763184 seconds to execute . 
+[15/12/19 14:50:55] : SELECT * FROM film WHERE id='4'  took exactly 0.0001828670501709 seconds to execute . 
+[15/12/19 14:52:19] : SELECT * FROM film WHERE id='4'  took exactly 0.00031495094299316 seconds to execute . 
+[15/12/19 14:52:19] : SELECT * FROM film WHERE id='4'  took exactly 0.00018405914306641 seconds to execute . 
+[15/12/19 15:30:57] : SELECT * FROM film WHERE id='4'  took exactly 0.00031018257141113 seconds to execute . 
+[15/12/19 15:30:57] : SELECT * FROM film WHERE id='4'  took exactly 0.00016999244689941 seconds to execute . 
+[15/12/19 15:31:21] : SELECT * FROM film WHERE id='4'  took exactly 0.0003199577331543 seconds to execute . 
+[15/12/19 15:31:21] : SELECT * FROM film WHERE id='4'  took exactly 0.00016379356384277 seconds to execute . 
+[15/12/19 15:32:13] : SELECT * FROM film WHERE id='4'  took exactly 0.00028800964355469 seconds to execute . 
+[15/12/19 15:32:13] : SELECT * FROM film WHERE id='4'  took exactly 0.00019192695617676 seconds to execute . 
+[15/12/19 15:33:27] : SELECT * FROM film WHERE id='4'  took exactly 0.00031495094299316 seconds to execute . 
+[15/12/19 15:33:27] : SELECT * FROM film WHERE id='4'  took exactly 0.00017499923706055 seconds to execute . 
+[15/12/19 15:33:49] : INSERT INTO film (title ,duree ,category ,studio ,synopsis ,releasedate) VALUES(?,?,?,?,?,?) took exactly 0.01724910736084 seconds to execute . 
+[15/12/19 15:34:25] : SELECT * FROM film WHERE id='4'  took exactly 0.00031805038452148 seconds to execute . 
+[15/12/19 15:34:25] : SELECT * FROM film WHERE id='4'  took exactly 0.00019097328186035 seconds to execute . 
+[15/12/19 15:38:01] : SELECT * FROM film WHERE id='4'  took exactly 0.00031495094299316 seconds to execute . 
+[15/12/19 15:38:01] : SELECT * FROM film WHERE id='4'  took exactly 0.00016379356384277 seconds to execute . 
+[15/12/19 15:38:01] : SELECT * FROM film WHERE id='4'  took exactly 0.00014305114746094 seconds to execute . 
+[15/12/19 15:38:44] : SELECT * FROM film WHERE id='4'  took exactly 0.00029301643371582 seconds to execute . 
+[15/12/19 15:38:44] : SELECT * FROM film WHERE id='4'  took exactly 0.00016593933105469 seconds to execute . 
+[15/12/19 15:39:03] : SELECT * FROM film WHERE id='4'  took exactly 0.00028109550476074 seconds to execute . 
+[15/12/19 15:39:03] : SELECT * FROM film WHERE id='4'  took exactly 0.00018596649169922 seconds to execute . 
+[15/12/19 15:39:17] : SELECT * FROM film WHERE id='4'  took exactly 0.00029110908508301 seconds to execute . 
+[15/12/19 15:39:17] : SELECT * FROM film WHERE id='4'  took exactly 0.00017404556274414 seconds to execute . 
+[15/12/19 15:40:44] : SELECT * FROM film WHERE id='4'  took exactly 0.00033807754516602 seconds to execute . 
+[15/12/19 15:40:44] : SELECT * FROM film WHERE id='4'  took exactly 0.00017786026000977 seconds to execute . 
+[15/12/19 15:40:56] : SELECT * FROM film WHERE id='4'  took exactly 0.00031185150146484 seconds to execute . 
+[15/12/19 15:40:56] : SELECT * FROM film WHERE id='4'  took exactly 0.00018191337585449 seconds to execute . 
+[15/12/19 15:40:56] : SELECT * FROM film WHERE id='4'  took exactly 0.00016212463378906 seconds to execute . 
+[16/12/19 07:14:43] : SELECT * FROM film WHERE id='4'  took exactly 0.00044083595275879 seconds to execute . 
+[16/12/19 07:14:43] : SELECT * FROM film WHERE id='4'  took exactly 0.0001828670501709 seconds to execute . 
+[16/12/19 07:15:23] : SELECT * FROM film WHERE id='4'  took exactly 0.00041484832763672 seconds to execute . 
+[16/12/19 07:15:23] : SELECT * FROM film WHERE id='4'  took exactly 0.00019502639770508 seconds to execute . 
+[16/12/19 07:15:56] : SELECT * FROM film WHERE id='4'  took exactly 0.0003361701965332 seconds to execute . 
+[16/12/19 07:15:56] : SELECT * FROM film WHERE id='4'  took exactly 0.00019001960754395 seconds to execute . 
+[16/12/19 07:15:56] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.0081779956817627 seconds to execute . 
+[16/12/19 07:17:05] : SELECT * FROM film WHERE id='4'  took exactly 0.00029301643371582 seconds to execute . 
+[16/12/19 07:17:05] : SELECT * FROM film WHERE id='4'  took exactly 0.0001530647277832 seconds to execute . 
+[16/12/19 07:17:05] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.00057196617126465 seconds to execute . 
+[16/12/19 08:12:31] : SELECT * FROM film WHERE id='4'  took exactly 0.00037384033203125 seconds to execute . 
+[16/12/19 08:12:31] : SELECT * FROM film WHERE id='4'  took exactly 0.00017189979553223 seconds to execute . 
+[16/12/19 08:12:31] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.0019841194152832 seconds to execute . 
+[16/12/19 08:12:50] : SELECT * FROM film WHERE id='4'  took exactly 0.00033187866210938 seconds to execute . 
+[16/12/19 08:12:50] : SELECT * FROM film WHERE id='4'  took exactly 0.0001521110534668 seconds to execute . 
+[16/12/19 08:12:50] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.00051403045654297 seconds to execute . 
+[16/12/19 08:13:02] : SELECT * FROM film WHERE id='4'  took exactly 0.00054407119750977 seconds to execute . 
+[16/12/19 08:13:02] : SELECT * FROM film WHERE id='4'  took exactly 0.00022196769714355 seconds to execute . 
+[16/12/19 08:13:02] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.0026450157165527 seconds to execute . 
+[16/12/19 09:35:11] : SELECT * FROM film WHERE id='4'  took exactly 0.0013439655303955 seconds to execute . 
+[16/12/19 09:35:11] : SELECT * FROM film WHERE id='4'  took exactly 0.00027894973754883 seconds to execute . 
+[16/12/19 09:35:11] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.0065090656280518 seconds to execute . 
+[16/12/19 09:35:23] : SELECT * FROM film WHERE id='4'  took exactly 0.0013689994812012 seconds to execute . 
+[16/12/19 09:35:23] : SELECT * FROM film WHERE id='4'  took exactly 0.00016593933105469 seconds to execute . 
+[16/12/19 09:35:23] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.0067870616912842 seconds to execute . 
+[16/12/19 09:35:28] : SELECT * FROM film WHERE id='4'  took exactly 0.00061202049255371 seconds to execute . 
+[16/12/19 09:35:28] : SELECT * FROM film WHERE id='4'  took exactly 0.00019216537475586 seconds to execute . 
+[16/12/19 09:35:28] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.0051419734954834 seconds to execute . 
+[16/12/19 09:37:07] : SELECT * FROM film WHERE id='4'  took exactly 0.0010390281677246 seconds to execute . 
+[16/12/19 09:37:07] : SELECT * FROM film WHERE id='4'  took exactly 0.00017309188842773 seconds to execute . 
+[16/12/19 09:37:07] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.0087850093841553 seconds to execute . 
+[16/12/19 09:37:07] : SELECT * FROM film WHERE id='4'  took exactly 0.00026488304138184 seconds to execute . 
+[16/12/19 10:01:55] : SELECT * FROM film WHERE id='4'  took exactly 0.00047802925109863 seconds to execute . 
+[16/12/19 10:01:55] : SELECT * FROM film WHERE id='4'  took exactly 0.00020217895507812 seconds to execute . 
+[16/12/19 10:01:55] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.0019409656524658 seconds to execute . 
+[16/12/19 10:01:55] : SELECT * FROM film WHERE id='4'  took exactly 0.00017595291137695 seconds to execute . 
+[16/12/19 10:02:07] : SELECT * FROM film WHERE id='4'  took exactly 0.0011429786682129 seconds to execute . 
+[16/12/19 10:02:07] : SELECT * FROM film WHERE id='4'  took exactly 0.00017595291137695 seconds to execute . 
+[16/12/19 10:02:07] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.0011069774627686 seconds to execute . 
+[16/12/19 10:02:07] : SELECT * FROM film WHERE id='4'  took exactly 0.0001981258392334 seconds to execute . 
+[16/12/19 10:04:06] : SELECT * FROM film WHERE id='4'  took exactly 0.00029897689819336 seconds to execute . 
+[16/12/19 10:04:06] : SELECT * FROM film WHERE id='4'  took exactly 0.00029206275939941 seconds to execute . 
+[16/12/19 10:04:06] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.0013210773468018 seconds to execute . 
+[16/12/19 10:04:06] : SELECT * FROM film WHERE id='4'  took exactly 0.00029587745666504 seconds to execute . 
+[16/12/19 10:04:32] : SELECT * FROM film WHERE id='4'  took exactly 0.00034093856811523 seconds to execute . 
+[16/12/19 10:04:32] : SELECT * FROM film WHERE id='4'  took exactly 0.00017094612121582 seconds to execute . 
+[16/12/19 10:04:32] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.0012152194976807 seconds to execute . 
+[16/12/19 10:04:32] : SELECT * FROM film WHERE id='4'  took exactly 0.00017213821411133 seconds to execute . 
+[16/12/19 10:23:02] : SELECT * FROM film WHERE id='4'  took exactly 0.0025801658630371 seconds to execute . 
+[16/12/19 10:23:02] : SELECT * FROM film WHERE id='4'  took exactly 0.00017499923706055 seconds to execute . 
+[16/12/19 10:23:02] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.0028889179229736 seconds to execute . 
+[16/12/19 10:23:13] : SELECT * FROM film WHERE id='4'  took exactly 0.00095391273498535 seconds to execute . 
+[16/12/19 10:23:13] : SELECT * FROM film WHERE id='4'  took exactly 0.00018310546875 seconds to execute . 
+[16/12/19 10:23:13] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.00060796737670898 seconds to execute . 
+[16/12/19 10:24:03] : SELECT * FROM film WHERE id='4'  took exactly 0.00089693069458008 seconds to execute . 
+[16/12/19 10:24:03] : SELECT * FROM film WHERE id='4'  took exactly 0.00019478797912598 seconds to execute . 
+[16/12/19 10:24:03] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.00063395500183105 seconds to execute . 
+[16/12/19 10:28:23] : SELECT * FROM film WHERE id='4'  took exactly 0.0013251304626465 seconds to execute . 
+[16/12/19 10:28:23] : SELECT * FROM film WHERE id='4'  took exactly 0.00018405914306641 seconds to execute . 
+[16/12/19 10:28:23] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.00050115585327148 seconds to execute . 
+[16/12/19 10:29:04] : SELECT * FROM film WHERE id='4'  took exactly 0.00034999847412109 seconds to execute . 
+[16/12/19 10:29:04] : SELECT * FROM film WHERE id='4'  took exactly 0.00017809867858887 seconds to execute . 
+[16/12/19 10:29:04] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.002051830291748 seconds to execute . 
+[16/12/19 10:29:17] : SELECT * FROM film WHERE id='4'  took exactly 0.0018429756164551 seconds to execute . 
+[16/12/19 10:29:17] : SELECT * FROM film WHERE id='4'  took exactly 0.00027298927307129 seconds to execute . 
+[16/12/19 10:29:17] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.0031139850616455 seconds to execute . 
+[16/12/19 10:29:40] : SELECT * FROM film WHERE id='4'  took exactly 0.00063395500183105 seconds to execute . 
+[16/12/19 10:29:40] : SELECT * FROM film WHERE id='4'  took exactly 0.00019407272338867 seconds to execute . 
+[16/12/19 10:29:40] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.00090599060058594 seconds to execute . 
+[16/12/19 10:29:59] : SELECT * FROM film WHERE id='4'  took exactly 0.00042104721069336 seconds to execute . 
+[16/12/19 10:29:59] : SELECT * FROM film WHERE id='4'  took exactly 0.0001220703125 seconds to execute . 
+[16/12/19 10:29:59] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.00047397613525391 seconds to execute . 
+[16/12/19 10:30:18] : SELECT * FROM film WHERE id='4'  took exactly 0.00032687187194824 seconds to execute . 
+[16/12/19 10:30:18] : SELECT * FROM film WHERE id='4'  took exactly 0.00018405914306641 seconds to execute . 
+[16/12/19 10:30:18] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.0027468204498291 seconds to execute . 
+[16/12/19 10:30:36] : SELECT * FROM film WHERE id='4'  took exactly 0.00035715103149414 seconds to execute . 
+[16/12/19 10:30:36] : SELECT * FROM film WHERE id='4'  took exactly 0.0001828670501709 seconds to execute . 
+[16/12/19 10:30:36] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.0013408660888672 seconds to execute . 
+[16/12/19 10:30:48] : SELECT * FROM film WHERE id='4'  took exactly 0.00034785270690918 seconds to execute . 
+[16/12/19 10:30:48] : SELECT * FROM film WHERE id='4'  took exactly 0.00019001960754395 seconds to execute . 
+[16/12/19 10:30:48] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.0013749599456787 seconds to execute . 
+[16/12/19 10:31:16] : SELECT * FROM film WHERE id='4'  took exactly 0.00033283233642578 seconds to execute . 
+[16/12/19 10:31:34] : SELECT * FROM film WHERE id='4'  took exactly 0.0013241767883301 seconds to execute . 
+[16/12/19 10:32:30] : SELECT * FROM film WHERE id='4'  took exactly 0.00036096572875977 seconds to execute . 
+[16/12/19 10:33:06] : SELECT * FROM film WHERE id='4'  took exactly 0.0003058910369873 seconds to execute . 
+[16/12/19 10:33:24] : SELECT * FROM film WHERE id='4'  took exactly 0.0013189315795898 seconds to execute . 
+[16/12/19 10:35:01] : SELECT * FROM film WHERE id='4'  took exactly 0.00030803680419922 seconds to execute . 
+[16/12/19 10:35:01] : SELECT * FROM film WHERE id='4'  took exactly 0.00018692016601562 seconds to execute . 
+[16/12/19 10:35:01] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.0015280246734619 seconds to execute . 
+[16/12/19 10:35:13] : SELECT * FROM film WHERE id='4'  took exactly 0.00029587745666504 seconds to execute . 
+[16/12/19 10:35:13] : SELECT * FROM film WHERE id='4'  took exactly 0.00017905235290527 seconds to execute . 
+[16/12/19 10:35:13] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.00047707557678223 seconds to execute . 
+[16/12/19 10:36:33] : SELECT * FROM film WHERE id='4'  took exactly 0.00031781196594238 seconds to execute . 
+[16/12/19 10:36:33] : SELECT * FROM film WHERE id='4'  took exactly 0.00017404556274414 seconds to execute . 
+[16/12/19 10:36:33] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.00082588195800781 seconds to execute . 
+[16/12/19 10:37:47] : SELECT * FROM film WHERE id='4'  took exactly 0.00032186508178711 seconds to execute . 
+[16/12/19 10:37:47] : SELECT * FROM film WHERE id='4'  took exactly 0.00019311904907227 seconds to execute . 
+[16/12/19 10:37:47] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.0012731552124023 seconds to execute . 
+[16/12/19 10:37:53] : SELECT * FROM film WHERE id='4'  took exactly 0.00030899047851562 seconds to execute . 
+[16/12/19 10:37:53] : SELECT * FROM film WHERE id='4'  took exactly 0.00019311904907227 seconds to execute . 
+[16/12/19 10:37:53] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.00055885314941406 seconds to execute . 
+[16/12/19 10:38:28] : SELECT * FROM film WHERE id='4'  took exactly 0.00029993057250977 seconds to execute . 
+[16/12/19 10:38:28] : SELECT * FROM film WHERE id='4'  took exactly 0.00034189224243164 seconds to execute . 
+[16/12/19 10:38:28] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.00092101097106934 seconds to execute . 

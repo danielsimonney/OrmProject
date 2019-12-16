@@ -1,0 +1,17 @@
+[12/12/19 16:15:14] : Column 'studio' cannot be null 
+[12/12/19 16:48:52] : Column 'studio' cannot be null 
+[12/12/19 17:51:52] : Column 'studio' cannot be null 
+[12/12/19 22:41:23] : Unknown column 'releaseDaete' in 'order clause' 
+[13/12/19 10:06:53] : Unknown column 'synopsise' in 'where clause' 
+[15/12/19 14:34:43] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(title ,duree ,category ,studio ,synopsis ,releasedate ,id ,0) VALUES('Avatar','' at line 1 
+[15/12/19 14:35:34] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(title ,duree ,category ,studio ,synopsis ,releasedate ,id ,0) VALUES('Avatar','' at line 1 
+[15/12/19 14:36:55] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(title ,duree ,category ,studio ,synopsis ,releasedate ,id ,0) VALUES('Avatar','' at line 1 
+[15/12/19 14:50:55] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(title ,duree ,category ,studio ,synopsis ,releasedate ,id) VALUES('Avatar','45'' at line 1 
+[15/12/19 14:52:19] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(title ,duree ,category ,studio ,synopsis ,releasedate ,id) VALUES('Avatar','45'' at line 1 
+[15/12/19 15:30:57] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(title ,duree ,category ,studio ,synopsis ,releasedate ,id) VALUES('Avatar','45'' at line 1 
+[15/12/19 15:31:21] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(title ,duree ,category ,studio ,synopsis ,releasedate ,id) VALUES('Avatar','45'' at line 1 
+[15/12/19 15:32:13] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(title ,duree ,category ,studio ,synopsis ,releasedate ,id) VALUES('Avatar','45'' at line 1 
+[15/12/19 15:33:27] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(title ,duree ,category ,studio ,synopsis ,releasedate ,id) VALUES('Avatar','45'' at line 1 
+[15/12/19 15:34:25] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(title ,duree ,category ,studio ,synopsis ,releasedate ,id) VALUES('Avatar','45'' at line 1 
+[15/12/19 15:38:01] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '() VALUES() WHERE film.id=4' at line 1 
+[15/12/19 15:40:56] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(title ,duree ,category ,studio ,synopsis ,releasedate) VALUES('Avatar','45','Me' at line 1 
