@@ -118,4 +118,15 @@ class EntityManager
         var_dump($requ);
         var_dump($model->getTitle());
     }
+    public function delete($model){
+       
+        $parser = new ParsingModel($model->getModel());
+        $myRepo = ($parser->getRepository());
+        $primaryKey = $parser->getPrimaryRow();
+        $nameTable = ($parser->getTableName());
+        $id = $model->$primaryKey;
+        $requ = $this->conn->exec("DELETE FROM $nameTable WHERE $nameTable.$primaryKey=$id");
+
+       
+    }
 }

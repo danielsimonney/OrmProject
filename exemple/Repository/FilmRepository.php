@@ -1,14 +1,14 @@
 <?php
 namespace Repository;
 
+use Exception;
 use Model\Film;
 use Susano\Executer;
-use Susano\ParsingModel;
 use Susano\Validator;
+use Susano\ParsingModel;
 
 class FilmRepository
 {
-
     public function __construct()
     {
         $this->model = new Film;
@@ -67,7 +67,8 @@ class FilmRepository
             }
         }
         if (!(isset($film))) {
-            return false;
+            $this->conn->unexistant("Le film a l'id ".$id." n'existe pas !");
+            throw new Exception('Pas de données trouvées.');
         } else {
             return ($film);
         }
@@ -106,6 +107,12 @@ class FilmRepository
             $results[] = $film;
         }
         return ($results);
+        if (!(isset($film))) {
+            $this->conn->unexistant("Il semblerait que nous ne trouvions pas de rows dans la BDD avec les critères spécifiés .");
+            throw new Exception('Pas de données trouvées avec vos critères.');
+        } else {
+            return ($results);
+        }
 
     }
 

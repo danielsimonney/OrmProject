@@ -1,134 +1,114 @@
 <?php
 
 namespace Model;
-class Film {
+
+use Model\Model as SuperModel;
+
+class Film extends SuperModel
+{
 
 /**
  * Undocumented variable
  *
  * @var string
  */
-public $table="film";
+    public $table = "film";
 
 /**
  * Undocumented variable
  *
  * @var int
  */
-public $id;
+    public $id;
 
 /**
  * Undocumented variable
  *
  * @var string
  */
-public $title;
+    public $title;
 /**
  * Undocumented variable
  *
  * @var int
  */
-public $duree;
+    public $duree;
 /**
  * Undocumented variable
  *
  * @var string
  */
-public $category;
+    public $category;
 /**
  * Undocumented variable
  *
  * @var string
  */
-public $studio;
+    public $studio;
 /**
  * Undocumented variable
  *
  * @var string
  */
-public $synopsis;
+    public $synopsis;
 
 /**
  * Undocumented variable
  *
  * @var DateTime
  */
-public $releasedate;
+    public $releasedate;
 
 /**
  * Undocumented variable
  *
  * @var array
  */
-private $model=[
-    "table"=>"film",
-    "champs"=>[
-        "id"=>[
-            "auto_increment"=>true, 
-            "primary_key"=>true,
-            "type"=>"Integer",
-            "allowNull"=>true,
+    public $model = [
+        "table" => "film",
+        "champs" => [
+            "id" => [
+                "auto_increment" => true,
+                "primary_key" => true,
+                "type" => "Integer",
+                "allowNull" => true,
+            ],
+            "title" => [
+                "type" => "String",
+                "allowNull" => false,
+            ],
+            "duree" => [
+                "type" => "Integer",
+                "allowNull" => false,
+            ],
+            "category" => [
+                "type" => "String",
+                "allowNull" => false,
+            ],
+            "studio" => [
+                "type" => "String",
+                "allowNull" => false,
+            ],
+            "synopsis" => [
+                "type" => "String",
+                "allowNull" => false,
+            ],
+            "releasedate" => [
+                "type" => "Datetime",
+                "allowNull" => false,
+            ],
         ],
-        "title"=>[
-            "type"=>"String",
-            "allowNull"=>false,
-        ],
-        "duree"=>[
-            "type"=>"Integer",
-            "allowNull"=>false,
-        ],
-        "category"=>[
-            "type"=>"String",
-            "allowNull"=>false,
-        ],
-        "studio"=>[
-            "type"=>"String",
-            "allowNull"=>false,
-        ],
-        "synopsis"=>[
-            "type"=>"String",
-            "allowNull"=>false,
-        ],
-        "releasedate"=>[
-            "type"=>"Datetime",
-            "allowNull"=>false
-        ],
-    ]
-];
-
-/**
- * Get undocumented variable
- *
- * @return  string
- */ 
-public function getTable()
-{
-return $this->table;
-}
-
-/**
- * Set undocumented variable
- *
- * @param  string  $table  Undocumented variable
- *
- * @return  self
- */ 
-public function setTable(string $table)
-{
-$this->table = $table;
-
-return $this;
-}
+    ];
 
 /**
  * Get undocumented variable
  *
  * @return  int
- */ 
-public function getId()
-{
-return $this->id;
-}
+ */
+    public function getId()
+    {
+        return $this->id;
+    }
 
 /**
  * Set undocumented variable
@@ -136,23 +116,23 @@ return $this->id;
  * @param  int  $id  Undocumented variable
  *
  * @return  self
- */ 
-public function setId(int $id)
-{
-$this->id = $id;
+ */
+    public function setId(int $id)
+    {
+        $this->id = $id;
 
-return $this;
-}
+        return $this;
+    }
 
 /**
  * Get undocumented variable
  *
  * @return  string
- */ 
-public function getTitle()
-{
-return $this->title;
-}
+ */
+    public function getTitle()
+    {
+        return $this->title;
+    }
 
 /**
  * Set undocumented variable
@@ -160,23 +140,23 @@ return $this->title;
  * @param  string  $title  Undocumented variable
  *
  * @return  self
- */ 
-public function setTitle(string $title)
-{
-$this->title = $title;
+ */
+    public function setTitle(string $title)
+    {
+        $this->title = $title;
 
-return $this;
-}
+        return $this;
+    }
 
 /**
  * Get undocumented variable
  *
  * @return  int
- */ 
-public function getDuree()
-{
-return $this->duree;
-}
+ */
+    public function getDuree()
+    {
+        return $this->duree;
+    }
 
 /**
  * Set undocumented variable
@@ -184,23 +164,23 @@ return $this->duree;
  * @param  int  $duree  Undocumented variable
  *
  * @return  self
- */ 
-public function setDuree(int $duree)
-{
-$this->duree = $duree;
+ */
+    public function setDuree(int $duree)
+    {
+        $this->duree = $duree;
 
-return $this;
-}
+        return $this;
+    }
 
 /**
  * Get undocumented variable
  *
  * @return  string
- */ 
-public function getCategory()
-{
-return $this->category;
-}
+ */
+    public function getCategory()
+    {
+        return $this->category;
+    }
 
 /**
  * Set undocumented variable
@@ -208,23 +188,23 @@ return $this->category;
  * @param  string  $category  Undocumented variable
  *
  * @return  self
- */ 
-public function setCategory(string $category)
-{
-$this->category = $category;
+ */
+    public function setCategory(string $category)
+    {
+        $this->category = $category;
 
-return $this;
-}
+        return $this;
+    }
 
 /**
  * Get undocumented variable
  *
  * @return  string
- */ 
-public function getStudio()
-{
-return $this->studio;
-}
+ */
+    public function getStudio()
+    {
+        return $this->studio;
+    }
 
 /**
  * Set undocumented variable
@@ -232,23 +212,23 @@ return $this->studio;
  * @param  string  $studio  Undocumented variable
  *
  * @return  self
- */ 
-public function setStudio(string $studio)
-{
-$this->studio = $studio;
+ */
+    public function setStudio(string $studio)
+    {
+        $this->studio = $studio;
 
-return $this;
-}
+        return $this;
+    }
 
 /**
  * Get undocumented variable
  *
  * @return  string
- */ 
-public function getSynopsis()
-{
-return $this->synopsis;
-}
+ */
+    public function getSynopsis()
+    {
+        return $this->synopsis;
+    }
 
 /**
  * Set undocumented variable
@@ -256,48 +236,23 @@ return $this->synopsis;
  * @param  string  $synopsis  Undocumented variable
  *
  * @return  self
- */ 
-public function setSynopsis(string $synopsis)
-{
-$this->synopsis = $synopsis;
+ */
+    public function setSynopsis(string $synopsis)
+    {
+        $this->synopsis = $synopsis;
 
-return $this;
-}
-
-/**
- * Get undocumented variable
- *
- * @return  array
- */ 
-public function getModel()
-{
-return $this->model;
-}
-
-/**
- * Set undocumented variable
- *
- * @param  array  $model  Undocumented variable
- *
- * @return  self
- */ 
-public function setModel(array $model)
-{
-$this->model = $model;
-
-return $this;
-}
-
+        return $this;
+    }
 
 /**
  * Get undocumented variable
  *
  * @return  DateTime
- */ 
-public function getReleasedate()
-{
-return $this->releasedate;
-}
+ */
+    public function getReleasedate()
+    {
+        return $this->releasedate;
+    }
 
 /**
  * Set undocumented variable
@@ -305,11 +260,11 @@ return $this->releasedate;
  * @param  DateTime  $releasedate  Undocumented variable
  *
  * @return  self
- */ 
-public function setReleasedate($releasedate)
-{
-$this->releasedate = $releasedate;
+ */
+    public function setReleasedate($releasedate)
+    {
+        $this->releasedate = $releasedate;
 
-return $this;
-}
+        return $this;
+    }
 }

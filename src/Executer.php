@@ -57,4 +57,9 @@ class Executer extends \PDO {
 		file_put_contents($file, date("\[d/m/y H:i:s\]")." : ".$sth->errorInfo()[2]." \n", FILE_APPEND);
 
     }
+
+    public function unexistant($sentence){
+        $file = __DIR__."/logs/error.log";
+		file_put_contents($file, date("\[d/m/y H:i:s\]")." : ".$sentence." \n", FILE_APPEND);
+    }
 }

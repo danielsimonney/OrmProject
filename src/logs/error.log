@@ -15,3 +15,5 @@
 [15/12/19 15:34:25] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(title ,duree ,category ,studio ,synopsis ,releasedate ,id) VALUES('Avatar','45'' at line 1 
 [15/12/19 15:38:01] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '() VALUES() WHERE film.id=4' at line 1 
 [15/12/19 15:40:56] : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(title ,duree ,category ,studio ,synopsis ,releasedate) VALUES('Avatar','45','Me' at line 1 
+[05/02/20 08:30:52] : Le film a l'id 1 n'existe pas ! 
+[05/02/20 08:39:06] : Le film a l'id 1 n'existe pas ! 

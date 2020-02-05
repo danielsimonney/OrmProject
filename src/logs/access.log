@@ -312,3 +312,11 @@
 [16/12/19 10:38:28] : SELECT * FROM film WHERE id='4'  took exactly 0.00029993057250977 seconds to execute . 
 [16/12/19 10:38:28] : SELECT * FROM film WHERE id='4'  took exactly 0.00034189224243164 seconds to execute . 
 [16/12/19 10:38:28] : UPDATE film SET title= ? ,duree= ? ,category= ? ,studio= ? ,synopsis= ? ,releasedate= ? ,id= ?  WHERE film.id=4 took exactly 0.00092101097106934 seconds to execute . 
+[05/02/20 08:25:49] : SELECT * FROM film WHERE id='1'  took exactly 0.00028014183044434 seconds to execute . 
+[05/02/20 08:29:17] : SELECT * FROM film WHERE id='1'  took exactly 0.00029492378234863 seconds to execute . 
+[05/02/20 08:30:52] : SELECT * FROM film WHERE id='1'  took exactly 0.00029397010803223 seconds to execute . 
+[05/02/20 08:39:06] : SELECT * FROM film WHERE id='1'  took exactly 0.00038003921508789 seconds to execute . 
+[05/02/20 08:40:09] : SELECT * FROM film WHERE synopsis='`fezefvzevezv' ORDER BY releaseDate ASC took exactly 0.0040650367736816 seconds to execute . 
+[05/02/20 08:40:17] : SELECT * FROM film WHERE synopsis='`fezefvzevezv' ORDER BY releaseDate ASC took exactly 0.0003349781036377 seconds to execute . 
+[05/02/20 09:28:37] : SELECT * FROM film WHERE id='3'  took exactly 0.00091290473937988 seconds to execute . 
+[05/02/20 09:28:37] : DELETE FROM film WHERE film.id=3 took exactly 0.0013248920440674 seconds to execute . 
